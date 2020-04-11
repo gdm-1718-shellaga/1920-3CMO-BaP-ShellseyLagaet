@@ -6,7 +6,8 @@ html{
   font-family: 'Londrina Solid', cursive;
   color: black;
   background-color: rgb(255, 166, 0);
-  margin: 20px;rgb(255, 140, 0)
+  margin: 20px;
+  letter-spacing: 0.5px;
 }
 
 a:hover.nav-link{
@@ -18,6 +19,7 @@ a:hover.nav-link{
 /* TITELS MET OUTLINE */
 .container {
   width: 100%;
+  background-color: blueviolet !important!;
 }
 
 .titels {
@@ -25,6 +27,7 @@ a:hover.nav-link{
   position: relative;
   font-family: 'Londrina Solid', cursive;
   width: 100%;
+  letter-spacing: 5px;
 }
 
 .titels > h1 {
@@ -36,6 +39,7 @@ a:hover.nav-link{
   text-align: center;
   font-size: 100px;
 }
+
   
 h1:last-child {
   z-index: 1;
@@ -46,13 +50,14 @@ h1:last-child {
 }
 
 h1:first-child {
-  top: 5px;
-  left: 5px;
+  top: 4px;
+  left: 4px;
   z-index: 0;
   color: black;
   -webkit-text-fill-color:white;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgb(0, 217, 255);
+  -webkit-text-stroke-color: rgb(255, 166, 0);
 }
+
 
 /* TITELS MET OUTLINE */
