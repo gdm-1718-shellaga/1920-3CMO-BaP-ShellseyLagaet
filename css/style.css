@@ -1,0 +1,46 @@
+html{
+    background-color: black;
+}
+
+/* TITELS MET OUTLINE */
+.container {
+  width: 100%;
+}
+
+.titels {
+  display: block;
+  position: relative;
+  font-family: 'Londrina Solid', cursive;
+  background-color: black;
+  width: 100%;
+}
+
+.titels > h1 {
+  width: 100%;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 100px;
+}
+  
+h1:last-child {
+  z-index: 1;
+  top: 0px;
+  z-index: 0;
+  color: white;
+  width: 100%;
+}
+
+h1:first-child {
+  top: 5px;
+  left: 5px;
+  z-index: 0;
+  color: black;
+  -webkit-text-fill-color:black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(0, 217, 255);
+}
+
+/* TITELS MET OUTLINE */
