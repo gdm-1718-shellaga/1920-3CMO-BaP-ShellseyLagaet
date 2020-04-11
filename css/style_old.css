@@ -1,0 +1,63 @@
+html{
+}
+
+/* NAVIGATION */
+.nav-link{
+  font-family: 'Londrina Solid', cursive;
+  color: black;
+  background-color: rgb(255, 166, 0);
+  margin: 20px;
+  letter-spacing: 0.5px;
+}
+
+a:hover.nav-link{
+  font-family: 'Londrina Solid', cursive;
+  color: rgb(99, 16, 93);
+}
+
+
+/* TITELS MET OUTLINE */
+.container {
+  width: 100%;
+  background-color: blueviolet !important;
+}
+
+.titels {
+  display: block;
+  position: relative;
+  font-family: 'Londrina Solid', cursive;
+  width: 100%;
+  letter-spacing: 5px;
+}
+
+.titels > h1 {
+  width: 100%;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 100px;
+}
+
+  
+h1:last-child {
+  z-index: 1;
+  top: 0px;
+  z-index: 0;
+  color: black;
+  width: 100%;
+}
+
+h1:first-child {
+  top: 4px;
+  left: 4px;
+  z-index: 0;
+  color: black;
+  -webkit-text-fill-color:white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 166, 0);
+}
+
+
+/* TITELS MET OUTLINE */
