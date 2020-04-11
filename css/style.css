@@ -5,16 +5,15 @@ html{
 .nav-link{
   font-family: 'Londrina Solid', cursive;
   color: black;
+  background-color: rgb(255, 166, 0);
+  margin: 20px;rgb(255, 140, 0)
 }
 
-.a:nav-link{
+a:hover.nav-link{
   font-family: 'Londrina Solid', cursive;
-  color: white;
+  color: rgb(99, 16, 93);
 }
 
-a{
-  
-}
 
 /* TITELS MET OUTLINE */
 .container {
