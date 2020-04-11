@@ -1,5 +1,4 @@
 html{
-    background-color: black;
 }
 
 /* TITELS MET OUTLINE */
@@ -11,7 +10,6 @@ html{
   display: block;
   position: relative;
   font-family: 'Londrina Solid', cursive;
-  background-color: black;
   width: 100%;
 }
 
@@ -29,7 +27,7 @@ h1:last-child {
   z-index: 1;
   top: 0px;
   z-index: 0;
-  color: white;
+  color: black;
   width: 100%;
 }
 
@@ -38,7 +36,7 @@ h1:first-child {
   left: 5px;
   z-index: 0;
   color: black;
-  -webkit-text-fill-color:black;
+  -webkit-text-fill-color:white;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgb(0, 217, 255);
 }
