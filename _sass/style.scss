@@ -1,0 +1,74 @@
+html{
+    // background: red;
+}
+
+/* NAVIGATION */
+a {
+    &.nav-link{
+        font-family: 'Londrina Solid', cursive;
+        color: black;
+        background-color: rgb(255, 166, 0);
+        margin: 20px;
+        letter-spacing: 0.5px;
+        
+        &:hover {
+            font-family: 'Londrina Solid', cursive;
+            color: rgb(99, 16, 93);
+        }
+    }
+}
+
+/* TITELS MET OUTLINE */
+#hero {
+    width: 100%;
+    /* background-color: blueviolet; */
+    /* hier is de achtergrond over de volledige lengte */
+    background-image: url('http://www.randomkittengenerator.com/cats/rotator.php');
+  
+    .container {
+        /* als achtergrond enkel binnen de container moet zijn 
+        background-image: url('http://www.randomkittengenerator.com/cats/rotator.php');
+        */
+    }
+}
+
+.titels {
+  display: block;
+  position: relative;
+  font-family: 'Londrina Solid', cursive;
+  width: 100%;
+  letter-spacing: 5px;
+  
+  > h1 {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100px;
+    
+    &:last-child {
+        display: block;
+        position: relative;
+        top: 0px;
+        z-index: 0;
+        color: black;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    &:first-child {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        z-index: 0;
+        color: black;
+        -webkit-text-fill-color:white;
+        /* als de achtergrond van de tekst doorzichting moet zijn
+        -webkit-text-fill-color: transparent;
+        */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: rgb(255, 166, 0);
+    }
+  }
+}
