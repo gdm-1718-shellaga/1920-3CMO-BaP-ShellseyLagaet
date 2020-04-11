@@ -1,6 +1,21 @@
 html{
 }
 
+/* NAVIGATION */
+.nav-link{
+  font-family: 'Londrina Solid', cursive;
+  color: black;
+}
+
+.a:nav-link{
+  font-family: 'Londrina Solid', cursive;
+  color: white;
+}
+
+a{
+  
+}
+
 /* TITELS MET OUTLINE */
 .container {
   width: 100%;
